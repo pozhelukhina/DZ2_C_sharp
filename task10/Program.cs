@@ -8,7 +8,6 @@ Console.WriteLine("Введите трехзначное число: ");
 {
 int num1 = Convert.ToInt32(Console.ReadLine()); 
 num1 = num1% 100;
-Console.WriteLine(num1);
 int num2 = num1/10;
 Console.Write(num2);     } 
 
